@@ -32,4 +32,5 @@ for i in range(total_frames):
     resized_window = cv2.resize(window, (100, 100))
     output_video.write(cv2.cvtColor(resized_window, cv2.COLOR_BGR2RGB))
 
+
 output_video.release()
