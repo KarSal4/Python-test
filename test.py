@@ -14,7 +14,6 @@ img = Image.new('RGB', (img_width, img_height), color='white')
 draw = ImageDraw.Draw(img)
 draw.text((0, 0), text, fill='black', font=font)
 
-
 # Создание видео
 image = np.array(img)
 
